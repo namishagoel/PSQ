@@ -1,2 +1,3 @@
 # PSQ
-Problem Solving Questions and Solutions By Me - AtCoder, Codeforces
+# Will Be Posting all the Questions and Solution, I Solve on AtCoder and Codeforces.
+# @Daxoron Across All Platforms.
