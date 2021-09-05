@@ -1,11 +1,6 @@
 #include <bits/stdc++.h>
 #define test long long int t; cin>>t; while(t--)
 using namespace std;
-/*long long int largest(long long int n,long long int arr[],long long int length)
-{
-
-}
-*/
 int main()
 {
     //InputOutput
@@ -24,15 +19,6 @@ int main()
     sort(qrr,qrr+q);
     sort(arr,arr+n);
 
-    /*
-    long long int count=q,j=0,k=0;
-    while(count--)
-    {
-        cout<<largest(qrr[k],arr,n);
-        k++;
-    }
-    */
-
     long long int count=0,j=0,k=0,rem=0;
     count=n+qrr[q-1];
     long long int a[count];
@@ -50,7 +36,6 @@ int main()
             k++;
         }
     }
-    //k=0,j=0;
     for(i=0; i<k; i++)
     {
         cout<<a[i]
