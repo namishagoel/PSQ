@@ -11,6 +11,25 @@ int main()
     //Output
     for(i=0; i<5; i++)
         cout<<arr[i]<<" ";
-    
+    /*
+    Dutch National Flag Algorithm
+    Count Sorting
+    Insertion Sorting
+    Selection Sorting
+    Bubble Sorting
+    QuickSort
+    Merge Sort
+    Wave Sort
+    Kadane’s Algorithm
+
+    Knuth–Morris–Pratt algorithm
+    Rabin-Karp Algorithm
+    Z algorithm (Linear time pattern searching Algorithm)
+    Aho-Corasick Algorithm for Pattern Searching
+    Manacher’s Algorithm – Linear Time Longest Palindromic Substring
+
+    Sliding Window
+    Frobenius Coin Problem
+    */
     return 0;
 }
