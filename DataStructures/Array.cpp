@@ -28,7 +28,9 @@ int main()
     Aho-Corasick Algorithm for Pattern Searching
     Manacher’s Algorithm – Linear Time Longest Palindromic Substring
 
+    Divide and Conquer Algos
     Sliding Window
+    TwoPointer Approaches
     Frobenius Coin Problem
     */
     return 0;
