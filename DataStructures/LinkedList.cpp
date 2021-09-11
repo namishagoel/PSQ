@@ -24,6 +24,13 @@ class node
     } 
 };
 
+void insertAtHead(node* &head, int val)
+{
+    node* n = new node(val);
+    n->next=head;
+    head = n;
+}
+
 void insertAtTail(node* &head, int val)
 {
     node *n = new node(val);
@@ -45,11 +52,26 @@ void display(node* head)
     node* temp=head;
     while(temp!=NULL)
     {
-        cout<<temp->data<<" ";
+        cout<<temp->data<<"->";
         temp=temp->next;
     }
-    cout<<"\n";
+    cout<<"NULL"<<"\n";
 }
+
+bool search(node* head, int key)
+{
+    node* temp=head;
+    while(temp!=NULL)
+    {
+        if(temp->data==key)
+            {
+                return true;
+            }
+            temp=temp->next;
+    }
+    return false;
+}
+
 int main()
 {
     //Linked_List
@@ -59,6 +81,9 @@ int main()
     insertAtTail(head,13);
     insertAtTail(head,14);
     insertAtTail(head,15);
+    insertAtHead(head,10);
     display(head);
+    cout<<search(head,10);//Prints 1 as 10 is present after inserting at head.
+    cout<<search(head,100);//Prints 0 as 100 is not present.
     return 0;
 }
