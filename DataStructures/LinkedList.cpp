@@ -10,6 +10,12 @@ using namespace std;
  Last Node has NEXT field as NULL.
  Insert at HEAD,TAIL,Middle,After or Before a certain ELEMENT.
  Deletion.
+
+ Types of Linked List :
+    Singly Linked list.
+    Doubly Linked list.
+    Circular Linked list.
+    Doubly Circular Linked list.
 */
 class node
 {
@@ -83,7 +89,7 @@ int main()
     insertAtTail(head,15);
     insertAtHead(head,10);
     display(head);
-    cout<<search(head,10);//Prints 1 as 10 is present after inserting at head.
-    cout<<search(head,100);//Prints 0 as 100 is not present.
+    cout<<search(head,10);          //Prints 1 as 10 is present after inserting at head.
+    cout<<search(head,100);         //Prints 0 as 100 is not present.
     return 0;
 }
