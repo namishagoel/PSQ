@@ -6,7 +6,7 @@ using namespace std;
 // Example Could Be : Pile of Coins or Pile of Plates.
 int main()
 {
-
+    
     return 0;
 }
 //  Array Implementation of Stack
