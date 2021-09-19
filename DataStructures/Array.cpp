@@ -1,5 +1,18 @@
 #include <bits/stdc++.h>
 using namespace std;
+// - Linear Search
+// - Frobenius Coin Problem
+// - Count Sorting
+// - Insertion Sorting
+// - Selection Sorting
+// - Bubble Sorting
+// - QuickSort
+// - Merge Sort
+// - Wave Sort
+// - TwoPointer Approaches
+// - Sliding Window
+// - Divide and Conquer Algos
+// - Binary Search
 
 int main()
 {
