@@ -6,4 +6,4 @@
 - Rabin-Karp Algorithm
 - Z Algorithm (Linear Time Pattern Searching Algorithm)
 - Aho-Corasick Algorithm for Pattern Searching
-- Manacher’s Algorithm(Linear Time Longest Palindromic Substring)
+- Manacher’s Algorithm (Linear Time Longest Palindromic Substring)
