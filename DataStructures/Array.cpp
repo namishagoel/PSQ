@@ -13,7 +13,7 @@ using namespace std;
 // - Sliding Window
 // - Divide and Conquer Algos
 // - Binary Search
-
+// - Prefix Sum
 int main()
 {
     //Declaration
