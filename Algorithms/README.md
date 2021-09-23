@@ -1,6 +1,7 @@
 ## Algorithms 🚀
 ### Array & String Algorithms
 - Suffix Array
+- Prefix sum
 - Kadane’s Algorithm
 - Dutch National Flag Algorithm
 - Knuth–Morris–Pratt Algorithm[KMP Algorithm]
