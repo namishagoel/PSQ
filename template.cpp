@@ -31,7 +31,7 @@ int main(){
   cin.tie(NULL);
   //Testcases
   test{
-    
+      
   }
   return 0;
 }
