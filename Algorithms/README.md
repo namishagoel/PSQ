@@ -3,8 +3,8 @@
 ### Searching Algos
 - Linear Search
 - Binary Search
-- Depth First Search
-- Breadth First Search
+- Depth First Search [Tree/Graph]
+- Breadth First Search [Tree/Graph]
 
 ### Sorting Algos
 - Insertion Sort
