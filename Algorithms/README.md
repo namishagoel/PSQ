@@ -17,7 +17,7 @@
 
 ### Array & String Algorithms
 - Suffix Array
-- Prefix sum
+- Prefix Sum
 - Kadane’s Algorithm
 - Floyd Cycle Detection
 - Quick Select [K-max Element]
@@ -39,15 +39,15 @@
 
 ### Extra Algos [For Reference]
 - Huffman Coding Compression
-- Euclid
+- Euclidean Algorithm
 - Union Find
 - Sliding Window
 - Two Pointer Questions
 - Lyndon Factorization
 - Gestalt Pattern Matching
-- Hunt–Szymanski algorithm
-- Wagner–Fischer algorithm
-- Boyer-Moore algorithm
+- Hunt–Szymanski Algorithm
+- Wagner–Fischer Algorithm
+- Boyer-Moore Algorithm
 - Bitap Algorithm
 - Two-Way String-Matching Algorithm
 - Commentz-Walter Algorithm
