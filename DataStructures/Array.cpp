@@ -17,12 +17,12 @@ using namespace std;
 int main()
 {
     //Declaration
-    int arr[5],i;
+    int arr[7],i;
     //Input
-    for(i=0; i<5; i++)
+    for(i=0; i<7; i++)
         cin>>arr[i];
     //Output
-    for(i=0; i<5; i++)
+    for(i=0; i<7; i++)
         cout<<arr[i]<<" ";
     return 0;
 }
