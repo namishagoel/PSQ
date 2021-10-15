@@ -4,11 +4,11 @@ using namespace std;
 
 int main()
 {
-    int arr[10] = {1,2,3,5,-3,8,-19,15};
+    int arr[8] = {1,2,3,5,-3,8,3,6};
 
     int cs=0,ms=0;
 
-    for(int i = 0; i<10; i++)
+    for(int i = 0; i<8; i++)
     {
         cs+=arr[i];
         if(cs<0)
