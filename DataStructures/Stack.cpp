@@ -16,7 +16,7 @@ using namespace std;
 
 using namespace std;
 
-#define MAX 1000
+#define MAX 10000
 
 class Stack {
 	int top;
