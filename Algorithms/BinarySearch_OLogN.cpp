@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int arr[10] = {1,2,3,4,5,6,7,8,9,11};
+    int arr[12] = {1,2,3,4,5,6,7,8,9,11,13,14};
 
     cout<<"Enter the Value to Search in a Sorted Array: ";
     int key;
