@@ -1,4 +1,4 @@
->Contest Code : OCT21C <br>
+>Problem Name: MEX-OR <br>
 >Problem Code : MEXOR <br>
 
 ## QUESTION LINK : https://www.codechef.com/OCT21C/problems/MEXOR/
