@@ -32,38 +32,6 @@ int main(){
   //Testcases
   test
   {
-      long long int n,d,c,m,i,count_d=0;
-      cin>>n>>d>>c>>m;
-      string st;
-      cin>>st;
-      for(i = 0; i<n; i++)
-      {
-          if(st[i]=='D')
-          {
-            count_d++;
-          }
-      }
-      int flag = 1;
-      for(i = 0; i<n; i++)
-      {
-        if(flag==-1)
-          break;
-        if(st[i]=='D')
-        {
-          if(d==0)
-            flag=-1;
-          else if(d>0)
-          {
-            d--;
-            c+=m;
-            count_d--;
-          }
-        }
-        else if(st[i]=='C')
-        {
-          c--;
-        }
-      }
   }
   return 0;
 }
