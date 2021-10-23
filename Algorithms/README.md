@@ -38,6 +38,7 @@
 - Flood Fill Algorithm
 
 ### Extra Algos [For Reference]
+- Kahn's Algorithm
 - Huffman Coding Compression
 - Euclidean Algorithm
 - Union Find
