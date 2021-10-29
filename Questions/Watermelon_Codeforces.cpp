@@ -30,32 +30,15 @@ int main(){
   ios_base::sync_with_stdio(false);
   cin.tie(NULL);
   //Testcases
-  test
+  long long int w;
+  cin>>w;
+  if(w%2==0&&w>3)
   {
-      long long int n;
-      //PrefixSum or Maybe Kadanes Algorithm
-      cin>>n;
-    //   long long int arr[n];
-      long long int odd_sum,odd=1,prev_sum=0,prev_element=0;
-    //   for(long long int i = 0; i<n; i++)
-    //     arr[i]=i;
-    //     for(long long int i = 0; i<n; i++)
-    //     {
-    //         int element=arr[i];
-    //         prev_sum+=element+prev_element;
-    //         if(prev_sum%2==1)
-    //             odd_sum+=prev_sum-1;
-    //         else
-    //         {
-    //             prev_sum-=element-1;
-    //         }
-    //         prev_element=element-1;
-    //     }
-    odd_sum = ((n-2)*(n-1)) + 1;
-        if(n<3)
-            cout<<odd<<"\n";
-        else
-            cout<<odd_sum<<"\n";
+      cout<<"YES";
+  }
+  else
+  {
+      cout<<"NO";
   }
   return 0;
 }
